@@ -2,6 +2,7 @@ let valortotal = document.querySelector("#valortotal")
 let cantidad = document.querySelector(".cantidad")
 let suma = document.querySelector("#suma")
 let resta = document.querySelector("#resta")
+let preciobase = document.querySelector("#preciobase")
 
 
 suma.addEventListener("click", function(){
@@ -15,4 +16,4 @@ resta.addEventListener("click", function(){
 })
 
 
-valortotal.innerHTML = Number(cantidad) * Number(valortotal)
+valortotal.innerHTML = Number(cantidad.innerHTML) * Number(preciobase.innerHTML)
