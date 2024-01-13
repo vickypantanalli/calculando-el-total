@@ -8,3 +8,11 @@ suma.addEventListener("click", function(){
         let cantidadtotal = Number(cantidad.innerHTML) + 1
         cantidad.innerHTML = cantidadtotal
 })
+
+resta.addEventListener("click", function(){
+        let cantidadtotal = Number(cantidad.innerHTML) - 1
+        cantidad.innerHTML = cantidadtotal
+})
+
+
+valortotal.innerHTML = Number(cantidad) * Number(valortotal)
