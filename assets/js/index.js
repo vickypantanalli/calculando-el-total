@@ -14,9 +14,5 @@ suma.addEventListener("click", function(){
 resta.addEventListener("click", function(){
         let cantidadtotal = Number(cantidad.innerHTML) - 1
         cantidad.innerHTML = cantidadtotal
+        valortotal.innerHTML = 400000 * Number(cantidad.innerHTML)
 })
-
-
-/* valortotal.innerHTML = Number(cantidad.innerHTML) * Number(preciobase)
-valortotal.innerHTML = Number(cantidad.innerHTML) * 400000
- */
