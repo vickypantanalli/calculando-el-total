@@ -5,3 +5,6 @@ let suma = documento.querySelector("#suma")
 let resta = documento.querySelector("#resta")
 
 
+suma.addEventListener("click", function(){
+        alert("Apretaste el botón suma")
+})
