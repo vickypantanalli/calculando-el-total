@@ -19,25 +19,15 @@
 
               <p>Cantidad:
                 <span class="cantidad">0</span>
-                <button  onclick="
-                cantidad = document.querySelector('.cantidad');
-                cantidad.innerHTML = 1;
-                valorfinal =document.querySelector('.valor.total')
-                
-                ">+</button>
-                <button
-                >-</button>
+                <button>+</button>
+                <button>-</button>
               </p>
             </div>
-
         </div>
     </section>
 
     <div class="total-section">
-        <p>Total a pagar: $<span class="valor-total" onchange="
-            valorfinal = document.querySelector('.valor-total')
-            valorfinal.innerHTML = ('Number(cantidad) * Number(precioinicial)')
-            ">00000</span> </p>
+        <p>Total a pagar: $<span>00000</span> </p>
     </div>
 
     <script src="/assets/js/index.js">
