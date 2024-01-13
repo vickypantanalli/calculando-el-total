@@ -5,5 +5,6 @@ let resta = document.querySelector("#resta")
 
 
 suma.addEventListener("click", function(){
-        alert("apretaste el boton sumar")
+        let cantidadtotal = Number(cantidad.innerHTML) + 1
+        cantidad.innerHTML = cantidadtotal
 })
